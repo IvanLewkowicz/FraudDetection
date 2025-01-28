@@ -1,0 +1,14 @@
+# Exclude everything in .gitignore PLUS Docker-specific files
+.git/
+.gitignore
+.dockerignore
+docker-compose.yml
+notebooks/
+tests/      # Optional: unless tests are needed in the image
+
+# Development files
+.idea/
+.vscode/
+
+# Data (already processed or mounted as volumes)
+data/
