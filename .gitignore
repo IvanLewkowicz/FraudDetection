@@ -1,0 +1,12 @@
+# Exclude data and secrets from Git
+data/raw/
+data/processed/  # Optional: if processed data is large
+models/           # Optional: if models are large/binary
+.env
+*.csv
+*.pkl
+
+# Development files
+__pycache__/
+.idea/
+.vscode/
